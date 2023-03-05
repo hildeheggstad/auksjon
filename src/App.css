@@ -4,20 +4,57 @@
   justify-content: center;
   align-items: center;
   padding: 4rem;
+  background-image: linear-gradient(#d9cdff, #cdeee5);
+  color: #2434e1;
 }
 
 .overskrift {
   align-self: flex-start;
+  margin-left: 2rem;
+  color: #c01b70;
 
 }
 
-.auksjon_bilde {
+.overskrift2 {
+  align-self: flex-start;
+  margin-left: 3rem;
+
+}
+
+.overskrift3 {
+  align-self: flex-start;
+  margin-left: 4rem;
+  transition-duration: 3000ms;
+
+}
+
+.overskrift4 {
+  align-self: flex-start;
+  margin-left: 4rem;
+  font-style: italic;
+  transition-duration: 2000ms;
+
+}
+
+.auksjon_bilde-container {
   width:50rem;
   margin: 2rem 1rem 2rem 1rem;
 }
 
+.auksjon_bilde {
+  width:100%;
+  margin-bottom: 1rem;
+}
+
+.strek {
+  margin-top: 1rem;
+  width: 100%;
+  height: 2px;
+  background-image: linear-gradient(#d9cdff, #c01b70);
+}
+
 @media only screen and (max-width: 600px) {
-  .auksjon_bilde {
+  .auksjon_bilde-container {
     width: 100%;
     margin: 2rem 1rem 2rem 1rem;
   }
