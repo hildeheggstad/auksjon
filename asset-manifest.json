@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/auksjon/static/css/main.073c9b0a.css",
-    "main.js": "/auksjon/static/js/main.bdc128dc.js",
+    "main.css": "/auksjon/static/css/main.bfcf67a4.css",
+    "main.js": "/auksjon/static/js/main.abec4178.js",
     "static/js/787.16115aab.chunk.js": "/auksjon/static/js/787.16115aab.chunk.js",
-    "static/media/logo.svg": "/auksjon/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/mona.png": "/auksjon/static/media/mona.7b53529a6f3f32bb1ca7.png",
+    "static/media/nanna2.jpg": "/auksjon/static/media/nanna2.1c7ab171af6a560ae5c1.jpg",
+    "static/media/nanna11.jpg": "/auksjon/static/media/nanna11.42672c19842eee3b3fbb.jpg",
+    "static/media/nanna3.jpg": "/auksjon/static/media/nanna3.6f99b9cf65adaaef49ba.jpg",
     "index.html": "/auksjon/index.html",
-    "main.073c9b0a.css.map": "/auksjon/static/css/main.073c9b0a.css.map",
-    "main.bdc128dc.js.map": "/auksjon/static/js/main.bdc128dc.js.map",
+    "main.bfcf67a4.css.map": "/auksjon/static/css/main.bfcf67a4.css.map",
+    "main.abec4178.js.map": "/auksjon/static/js/main.abec4178.js.map",
     "787.16115aab.chunk.js.map": "/auksjon/static/js/787.16115aab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.bdc128dc.js"
+    "static/css/main.bfcf67a4.css",
+    "static/js/main.abec4178.js"
   ]
 }
