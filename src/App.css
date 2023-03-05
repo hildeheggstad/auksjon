@@ -10,3 +10,20 @@
   align-self: flex-start;
 
 }
+
+.auksjon_bilde {
+  width:50rem;
+  margin: 2rem 1rem 2rem 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .auksjon_bilde {
+    width: 100%;
+    margin: 2rem 1rem 2rem 1rem;
+  }
+
+  .forside {
+    padding: 1rem;
+  }
+}
+
