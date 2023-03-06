@@ -4,43 +4,27 @@ import nanna2 from './bilder/nanna2.jpg';
 import nanna3 from './bilder/nanna3.jpg';
 import mona from './bilder/mona.png';
 import {
-    avstandTilElement,
     flyttKnappAnimasjon,
-    knappErInnenforSkjermen
 } from './hjelpefunksjoner.js';
-import React, {FunctionComponent, useEffect, useState} from 'react';
+import React, { useEffect, useState} from 'react';
 
 function App() {
-    const [pekerPosisjon, setPekerPosisjon] = useState([]);
     const ider = ["overskrift4", "overskrift3"]
     const startTid = new Date();
 
-    console.log(startTid.getSeconds())
-
-    let handleMousemove = (event) => {
-        const horisontalPosisjon = event.x
-        const vertikalPosisjon = event.y
-        setPekerPosisjon([horisontalPosisjon, vertikalPosisjon])
-    };
+    const [time, setTime] = useState(Date.now());
 
     useEffect(() => {
-        document.addEventListener('mousemove', handleMousemove);
+        const interval = setInterval(() => setTime(Date.now()), 4000);
+        return () => {
+            clearInterval(interval);
+        };
     }, []);
 
-    useEffect(() => {
-        //const avstandMellomPekerOgKnapp = avstandTilElement("godta-ikke-godta", pekerPosisjon)
-        //if (avstandMellomPekerOgKnapp < 150) {
-        if (startTid%4 == 0)
-            ider.forEach(i =>  flyttKnappAnimasjon(i));
-        //flyttKnappAnimasjon("godta-ikke-godta")
-    }, [pekerPosisjon]);
 
-    //useEffect(() => {
-      //  const knapp = document.getElementById("godta-ikke-godta")
-        //if (!knappErInnenforSkjermen(knapp)) {
-          //  flyttKnappAnimasjon("godta-ikke-godta")
-       // }
-    // }, [pekerPosisjon]);
+    useEffect(() => {
+        ider.forEach(i =>  flyttKnappAnimasjon(i));
+    }, [time]);
 
   return (
     <div className="forside">
@@ -50,12 +34,12 @@ function App() {
         <h2 className={"overskrift2"}>
             Kunst
         </h2>
-        <h2 id = {"overskrift4"} className={"overskrift3"}>
+        <h1 id = {"overskrift4"} className={"overskrift3"}>
             Mot
-        </h2>
-        <h2  id = {"overskrift3"} className={"overskrift4"}>
+        </h1>
+        <h1  id = {"overskrift3"} className={"overskrift4"}>
             Vinden
-        </h2>
+        </h1>
             <div className={"auksjon_bilde-container"} >
             <img  className={"auksjon_bilde"} src={nanna1}></img>
                 <div>
