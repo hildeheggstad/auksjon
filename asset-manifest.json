@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/www.kunstmotvinden.art/static/css/main.c40aec5d.css",
-    "main.js": "/www.kunstmotvinden.art/static/js/main.d84ca0db.js",
-    "static/js/787.16115aab.chunk.js": "/www.kunstmotvinden.art/static/js/787.16115aab.chunk.js",
-    "static/media/mona.png": "/www.kunstmotvinden.art/static/media/mona.7b53529a6f3f32bb1ca7.png",
-    "static/media/nanna2.jpg": "/www.kunstmotvinden.art/static/media/nanna2.1c7ab171af6a560ae5c1.jpg",
-    "static/media/nanna11.jpg": "/www.kunstmotvinden.art/static/media/nanna11.42672c19842eee3b3fbb.jpg",
-    "static/media/nanna3.jpg": "/www.kunstmotvinden.art/static/media/nanna3.6f99b9cf65adaaef49ba.jpg",
-    "index.html": "/www.kunstmotvinden.art/index.html",
-    "main.c40aec5d.css.map": "/www.kunstmotvinden.art/static/css/main.c40aec5d.css.map",
-    "main.d84ca0db.js.map": "/www.kunstmotvinden.art/static/js/main.d84ca0db.js.map",
-    "787.16115aab.chunk.js.map": "/www.kunstmotvinden.art/static/js/787.16115aab.chunk.js.map"
+    "main.css": "/www.kunstmotvinden.art/auksjon/static/css/main.c40aec5d.css",
+    "main.js": "/www.kunstmotvinden.art/auksjon/static/js/main.710e86bd.js",
+    "static/js/787.16115aab.chunk.js": "/www.kunstmotvinden.art/auksjon/static/js/787.16115aab.chunk.js",
+    "static/media/mona.png": "/www.kunstmotvinden.art/auksjon/static/media/mona.7b53529a6f3f32bb1ca7.png",
+    "static/media/nanna2.jpg": "/www.kunstmotvinden.art/auksjon/static/media/nanna2.1c7ab171af6a560ae5c1.jpg",
+    "static/media/nanna11.jpg": "/www.kunstmotvinden.art/auksjon/static/media/nanna11.42672c19842eee3b3fbb.jpg",
+    "static/media/nanna3.jpg": "/www.kunstmotvinden.art/auksjon/static/media/nanna3.6f99b9cf65adaaef49ba.jpg",
+    "index.html": "/www.kunstmotvinden.art/auksjon/index.html",
+    "main.c40aec5d.css.map": "/www.kunstmotvinden.art/auksjon/static/css/main.c40aec5d.css.map",
+    "main.710e86bd.js.map": "/www.kunstmotvinden.art/auksjon/static/js/main.710e86bd.js.map",
+    "787.16115aab.chunk.js.map": "/www.kunstmotvinden.art/auksjon/static/js/787.16115aab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c40aec5d.css",
-    "static/js/main.d84ca0db.js"
+    "static/js/main.710e86bd.js"
   ]
 }
