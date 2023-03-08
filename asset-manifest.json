@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/auksjon/static/css/main.c40aec5d.css",
-    "main.js": "/auksjon/static/js/main.6d882b6d.js",
-    "static/js/787.16115aab.chunk.js": "/auksjon/static/js/787.16115aab.chunk.js",
-    "static/media/mona.png": "/auksjon/static/media/mona.7b53529a6f3f32bb1ca7.png",
-    "static/media/nanna2.jpg": "/auksjon/static/media/nanna2.1c7ab171af6a560ae5c1.jpg",
-    "static/media/nanna11.jpg": "/auksjon/static/media/nanna11.42672c19842eee3b3fbb.jpg",
-    "static/media/nanna3.jpg": "/auksjon/static/media/nanna3.6f99b9cf65adaaef49ba.jpg",
-    "index.html": "/auksjon/index.html",
-    "main.c40aec5d.css.map": "/auksjon/static/css/main.c40aec5d.css.map",
-    "main.6d882b6d.js.map": "/auksjon/static/js/main.6d882b6d.js.map",
-    "787.16115aab.chunk.js.map": "/auksjon/static/js/787.16115aab.chunk.js.map"
+    "main.css": "/static/css/main.c40aec5d.css",
+    "main.js": "/static/js/main.cd2b6f48.js",
+    "static/js/787.16115aab.chunk.js": "/static/js/787.16115aab.chunk.js",
+    "static/media/mona.png": "/static/media/mona.7b53529a6f3f32bb1ca7.png",
+    "static/media/nanna2.jpg": "/static/media/nanna2.1c7ab171af6a560ae5c1.jpg",
+    "static/media/nanna11.jpg": "/static/media/nanna11.42672c19842eee3b3fbb.jpg",
+    "static/media/nanna3.jpg": "/static/media/nanna3.6f99b9cf65adaaef49ba.jpg",
+    "index.html": "/index.html",
+    "main.c40aec5d.css.map": "/static/css/main.c40aec5d.css.map",
+    "main.cd2b6f48.js.map": "/static/js/main.cd2b6f48.js.map",
+    "787.16115aab.chunk.js.map": "/static/js/787.16115aab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c40aec5d.css",
-    "static/js/main.6d882b6d.js"
+    "static/js/main.cd2b6f48.js"
   ]
 }
