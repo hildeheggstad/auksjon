@@ -24,8 +24,7 @@
 .overskrift3 {
   align-self: flex-start;
   margin-left: 6rem;
-  transition-duration: 1000ms;
-  transition-timing-function:cubic-bezier(0.99,0,0.78,1);
+  transition-duration: 1300ms;
 
 }
 
@@ -34,7 +33,6 @@
   margin-left: 8rem;
   font-style: italic;
   transition-duration: 1200ms;
-  transition-timing-function:cubic-bezier(0.99,0,0.78,1);
 
 }
 

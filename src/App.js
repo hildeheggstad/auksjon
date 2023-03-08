@@ -3,6 +3,7 @@ import nanna1 from './bilder/nanna11.jpg';
 import nanna2 from './bilder/nanna2.jpg';
 import nanna3 from './bilder/nanna3.jpg';
 import mona from './bilder/mona.png';
+import plakat from './bilder/kunstmv.jpeg'
 import {
     flyttKnappAnimasjon,
 } from './hjelpefunksjoner.js';
@@ -15,7 +16,7 @@ function App() {
     const [time, setTime] = useState(Date.now());
 
     useEffect(() => {
-        const interval = setInterval(() => setTime(Date.now()), 400);
+        const interval = setInterval(() => setTime(Date.now()), 200);
         return () => {
             clearInterval(interval);
         };
@@ -41,33 +42,12 @@ function App() {
             Vinden
         </h1>
             <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={nanna1}></img>
+            <img  className={"auksjon_bilde"} src={plakat}></img>
                 <div>
-                    BLABLA nanna ass
+                    Kommer snart
                 </div>
                 <div className={"strek"}/>
             </div>
-        <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={mona}></img>
-            <div>
-                BLABLA nanna ass
-            </div>
-            <div className={"strek"}/>
-        </div>
-        <div className={"auksjon_bilde-container"} >
-            <img className={"auksjon_bilde"} src={nanna3}></img>
-            <div>
-                BLABLA nanna ass
-            </div>
-            <div className={"strek"}/>
-        </div>
-        <div className={"auksjon_bilde-container"} >
-            <img className={"auksjon_bilde"} src={nanna2}></img>
-            <div>
-                BLABLA nanna ass
-            </div>
-            <div className={"strek"}/>
-        </div>
     </div>
   );
 }
