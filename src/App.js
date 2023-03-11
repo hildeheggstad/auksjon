@@ -95,9 +95,10 @@ function App() {
         <h1  id = {"overskrift3"} className={"overskrift4"}>
             Vinden
         </h1>
-
-            </div>
-
+        </div>
+        <h3  id = {"overskrift3"} className={"overskrift4"}>
+            Kontakt kunstmotvinden@proton.me for priser og kjøp
+        </h3>
         <div className={"auksjon_bilde-container"} >
             <img  className={"auksjon_bilde"} src={eskil1}></img>
             <div>
@@ -122,7 +123,6 @@ function App() {
                 03 - Karin M. Valum <br/>
                 Inn i skogen, 2021 <br/>
                 Tusjtegning på papir,42 x 32 cm. Innrammet med syrefri passepartout.<br/>
-                2000 kr
             </div>
             <div className={"strek"}/>
         </div>
@@ -132,7 +132,6 @@ function App() {
                 04 - Thale Blix Fastvold & Tanja Thorjussen / LOCUS <br/>
                 “Kvinner - Elsa Laula Renberg”, 2019 <br/>
                 Risografi i opplag på 50 eks. A3 str<br/>
-                2000 kr
             </div>
             <div className={"strek"}/>
         </div>
@@ -142,7 +141,6 @@ function App() {
                 05 - Ylva Greni <br/>
                 Det glatte lag, 2021 <br/>
                 70 x 100 cm, Opplag 40<br/>
-                4000 kr
             </div>
             <div className={"strek"}/>
         </div>
@@ -162,7 +160,6 @@ function App() {
                 Kerber Verlag og Uten Tittel 2023 <br/>
                 Design: Aslak Gurholt (Yokoland). Tekster av: Adrian Bugge, Henrik H. Svensen, på norsk og oversatt til engelsk. <br/>
                 23 x 32 cm, 128 sider, Hardcover <br/>
-                500 kr
             </div>
             <div className={"strek"}/>
         </div>
@@ -181,7 +178,6 @@ function App() {
                 10 - Marianne Gihle <br/>
                 «Jazzmesse i Nidarosdomen» tresnitt (2013), opplagsnummer 3/16.<br/>
                 oljemaleri, 25x44 cm <br/>
-                1500 kr
             </div>
             <div className={"strek"}/>
         </div>
@@ -213,7 +209,6 @@ function App() {
                 14 - Kim Henning Andreassen <br/>
                 Uten tittel, 2021 <br/>
                 Blekk på papir <br/>
-                Veil pris 2000 kr <br/>
             </div>
             <div className={"strek"}/>
         </div>
@@ -281,7 +276,6 @@ function App() {
             <div>
                 23 - Anna-Victoria Borgersrud <br/>
                 See Me/Reflex, 2022 <br/>
-                5500 kr
             </div>
             <div className={"strek"}/>
         </div>
@@ -309,7 +303,6 @@ function App() {
                 26 - Tanja Thorjussen <br/>
                 Reinsdyr og bjørk, 2015 <br/>
                 38,5 cm x 54 cm <br/>
-                Veiledende pris 3500 kr
             </div>
             <div className={"strek"}/>
         </div>
@@ -319,7 +312,6 @@ function App() {
                 27 - Maya W. Nowinska Craig <br/>
                 Vekst, 2023 <br/>
                 Linosnitt, 3x3 delt A3 format <br/>
-                1500 kr
             </div>
             <div className={"strek"}/>
         </div>
@@ -348,7 +340,6 @@ function App() {
                 31 - Linda Flø <br/>
                 Terrain Biopsy I, 2021<br/>
                 Keramisk objekt, ca 10 cm i diameter. Materialer: Keramiske materialer, metalltråd, asfalt. <br/>
-                Veil. pris: 3000 kr
             </div>
             <div className={"strek"}/>
         </div>
@@ -367,7 +358,6 @@ function App() {
             <div>
                 36 - Ronja Sofie Helgesen <br/>
                 Ovenfra, 2018<br/>
-                1400 kr
             </div>
             <div className={"strek"}/>
         </div>
@@ -385,7 +375,6 @@ function App() {
                 44 - Hamid Waheed <br/>
                 Uten tittel, 2022 <br/>
                 Risoprint, et print med gul/lilla pigment, et print med lilla pigment <br/>
-                500 kr
             </div>
             <div className={"strek"}/>
         </div>
@@ -395,7 +384,6 @@ function App() {
                 45 - Julia Jayko Fossland <br/>
                 Berøringer 4, 2023 <br/>
                 Silketrykk, 2-lags, A3+, opplag: 6 <br/>
-                800 kr
             </div>
             <div className={"strek"}/>
         </div>
@@ -405,7 +393,6 @@ function App() {
                 46 - Elisa Halvorsen Castillo <br/>
                 Cry yourself to ash, 2020 <br/>
                 Silketrykk, 46cm x 64cm <br/>
-                1500 kr
             </div>
             <div className={"strek"}/>
         </div>
@@ -415,17 +402,15 @@ function App() {
                 47 - Maya Økland <br/>
                 Eidfjord II (Sinnets irrganger), 2020. <br/>
                 Analog c-print 30 x 40 cm med eikeramme og UV-glass <br/>
-                3000 kr
             </div>
             <div className={"strek"}/>
         </div>
         <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={maya47}></img>
+            <img  className={"auksjon_bilde"} src={lars48}></img>
             <div>
                 48 - Lars Gangdal og Petter Wang <br/>
                 Werner Jensen, 2023 <br/>
                 Størrelse: 50x60cm /inkl sveveramme i eik.<br/>
-                9000 kr
             </div>
             <div className={"strek"}/>
         </div>
