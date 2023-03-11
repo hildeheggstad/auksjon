@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0f7baddc.css",
-    "main.js": "/static/js/main.0e2fa5e0.js",
+    "main.js": "/static/js/main.c0b0553b.js",
     "static/js/787.16115aab.chunk.js": "/static/js/787.16115aab.chunk.js",
     "static/media/19 - Io Sivertsen .jpg": "/static/media/19 - Io Sivertsen .9b5e5111706fe1de207b.jpg",
     "static/media/02_August Sandberg .jpg": "/static/media/02_August Sandberg .6d134ce1da6bf78fdada.jpg",
@@ -47,11 +47,11 @@
     "static/media/21 Annalise Wimmer.jpg": "/static/media/21 Annalise Wimmer.022bbd50a9d5689662c1.jpg",
     "index.html": "/index.html",
     "main.0f7baddc.css.map": "/static/css/main.0f7baddc.css.map",
-    "main.0e2fa5e0.js.map": "/static/js/main.0e2fa5e0.js.map",
+    "main.c0b0553b.js.map": "/static/js/main.c0b0553b.js.map",
     "787.16115aab.chunk.js.map": "/static/js/787.16115aab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f7baddc.css",
-    "static/js/main.0e2fa5e0.js"
+    "static/js/main.c0b0553b.js"
   ]
 }
