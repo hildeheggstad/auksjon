@@ -8,6 +8,18 @@
   color: #2434e1;
 }
 
+.forside-topp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
+  margin-bottom: 3rem;
+}
+
+.auksjon_banner {
+  width: 25%;
+}
+
 .overskrift {
   align-self: flex-start;
   margin-left: 2rem;
@@ -18,20 +30,23 @@
 .overskrift2 {
   align-self: flex-start;
   margin-left: 3rem;
+  margin-top: 1rem;
 
 }
 
 .overskrift3 {
   align-self: flex-start;
-  margin-left: 6rem;
+  margin-left: 2rem;
+  margin-top: 3rem;
   transition-duration: 1300ms;
 
 }
 
 .overskrift4 {
   align-self: flex-start;
-  margin-left: 8rem;
+  margin-left: 2rem;
   font-style: italic;
+  margin-top: 3rem;
   transition-duration: 1200ms;
 
 }
@@ -55,6 +70,15 @@
 
 @media only screen and (max-width: 600px) {
   .auksjon_bilde-container {
+    width: 100%;
+    margin: 2rem 1rem 2rem 1rem;
+  }
+
+  .auksjon_banner {
+    width: 100%;
+  }
+
+  .forside-toppr {
     width: 100%;
     margin: 2rem 1rem 2rem 1rem;
   }

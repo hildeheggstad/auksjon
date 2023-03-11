@@ -58,7 +58,7 @@ import lars48 from './salgs/48 - Lars Gangdal og Petter Wang.jpg';
 import maria49 from './salgs/49 Maria Viirros.jpg';
 import eili50 from './salgs/50 - Eili Bråstad.png';
 
-import plakat from './bilder/kunstmv.jpeg'
+import plakat from './bilder/banner-kunst-vind.jpg'
 import {
     flyttKnappAnimasjon,
 } from './hjelpefunksjoner.js';
@@ -84,6 +84,8 @@ function App() {
 
   return (
     <div className="forside">
+        <div className={"forside-topp"}>
+            <img  className={"auksjon_banner"} src={plakat}></img>
         <h2 className={"overskrift2"}>
             Kunst
         </h2>
@@ -93,13 +95,9 @@ function App() {
         <h1  id = {"overskrift3"} className={"overskrift4"}>
             Vinden
         </h1>
-            <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={plakat}></img>
-                <div>
-                    Kommer snart
-                </div>
-                <div className={"strek"}/>
+
             </div>
+
         <div className={"auksjon_bilde-container"} >
             <img  className={"auksjon_bilde"} src={eskil1}></img>
             <div>
