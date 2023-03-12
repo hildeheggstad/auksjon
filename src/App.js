@@ -12,7 +12,7 @@ import torild9 from './salgs/09_Torild Rødland.jpeg';
 import marianne10 from './salgs/10_Marianne Gihle.jpeg';
 import yngvar11 from './salgs/11_Yngvar Larsen.jpeg';
 // ella har fire beskrivelser men bare et bilde
-import ella12 from './salgs/12_Ella Mørtsell.JPG';
+import ella from './salgs/06_Ella Mørtsell.JPG';
 import mattias13 from './salgs/13 Mattias Hellberg.jpeg';
 
 
@@ -57,6 +57,18 @@ import lars48 from './salgs/48 - Lars Gangdal og Petter Wang.jpg';
 // 49 - kun fire bilder med beskrivelse av seks
 import maria49 from './salgs/49 Maria Viirros.jpg';
 import eili50 from './salgs/50 - Eili Bråstad.png';
+import aage from './salgs/00_aagegaup.jpg';
+import geir from './salgs/02 - GYHOLM.jpeg'
+import søssa from './salgs/03 - Søssa Jørgensen .jpg'
+import adrian from './salgs/07_AdrianBugge.jpg'
+import charlotte from './salgs/15 - Charlotte Tjomsland.jpg'
+
+import hermann from './salgs/14 -  Herman Breda Enkerud.jpg'
+import hermann2 from './salgs/14a -  Herman Breda Enkerud.jpg'
+import calina from './salgs/08 - Calina Pandele Yttreda.jpg'
+import calina2 from './salgs/08_C.jpg'
+import kamil from './salgs/18b - KamilK.jpg'
+import eline from './salgs/22 - Eline Benjaminsen.jpeg'
 
 import plakat from './bilder/banner-kunst-vind.jpg'
 import {
@@ -100,6 +112,214 @@ function App() {
             Kontakt kunstmotvinden@proton.me for priser og kjøp
         </h3>
         <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={aage}></img>
+            <div>
+                Aage Gaup
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={marthe40}></img>
+            <div>
+                Marthe Ramm Fortun <br/>
+                Når du kommer, brister hotellets kropp og alle rommenes dører åpner seg, 2017
+                Dokumentasjon, performance, Sandefjord Kunstforenings kunstpris 2017
+                Innrammet fotografi og performance-teksten i form av en recto-verso pamflett. Sertifikat vil medfølge.
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={geir}></img>
+            <div>
+                Geir Tore Holm <br/>
+                Biro guossa/Jævla grana (Sitkaguossa/Sitkagran), Sørfinnset <br/>
+                2009 <br/>
+                Analogt foto i ramme, 33x48 cm <br/>
+                1/5 + 1 AP
+                <br/>
+                <br/>
+                Foto fra Muorragovat/Vedbilder, en serie fotografier av trær, skog og
+                hogst. Fotografiene er gjenkjennelige som landskapsmotiv, men orientert
+                mot det som kan anses som brukelig i landskapet. Bakenfor skogen ligger
+                spørsmål om eierskap og rett til tilgang på livsgrunnlag.
+
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={søssa}></img>
+            <div>
+                Søssa Jørgensen <br/>
+                Sirius, 2022-23 <br/>
+                Teknikk: Blekk på papir <br/>
+                <br/>
+                Sirius, hundestjernen, er den lyseste stjernen i stjernebildet Canis Major, 25 ganger så lyssterk som solen.<br/>
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={lars48}></img>
+            <div>
+                Lars Gangdal og Petter Wang <br/>
+                Werner Jensen, 2023 <br/>
+                Størrelse: 50x60cm /inkl sveveramme i eik.<br/>
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={maya47}></img>
+            <div>
+                Maya Økland <br/>
+                Eidfjord II (Sinnets irrganger), 2020. <br/>
+                Fra serien Worried Landscapes.<br/>
+                Analog, c-print 30 x 40 cm med eikeramme og UV-glass <br/>
+                Opplag nr. 1 av 3 + 2 AP
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={ella}></img>
+            <div>
+                Ella <br/>
+                Uten tittel, 2023. Alle 6/6 <br/>
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={adrian}></img>
+            <div>
+                Adrian <br/>
+                Inngrep / Interventions, 2023 <br/>
+                23 x 32 cm, 128 sider, Hardcover <br/>
+                500 kr
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={calina}></img>
+            <img  className={"auksjon_bilde"} src={calina2}></img>
+            <div>
+                Calina Pandele Yttreda <br/>
+                Lykkeøyeblikk / Lucky Moment, 2022. <br/>
+                27 x 33 cm, silketrykk <br/>
+                Innrammet
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={thale4}></img>
+            <div>
+                Thale Blix Fastvold & Tanja Thorjussen / LOCUS <br/>
+                “Kvinner - Elsa Laula Renberg”, 2019 <br/>
+                Risografi i opplag på 50 eks. A3 str<br/>
+                Kunstner: LOCUS / Thale Blix Fastvold & Tanja Thorjussen
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={yngvar11}></img>
+            <div>
+                Yngvar Larsen <br/>
+                OMEN NEMO, 2022<br/>
+                Størrelse 39x53cm<br/>
+                Papir: Hahnemühle 150 gram
+                Unikt trykk (Monotypi, dyptrykk, tapetrykk)
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={io19}></img>
+            <div>
+                Io Sivertsen
+                Sepur Zarco, Guatemala 25.februar 2023.<br/>
+                En fra Festivales Solidarios som blåser flammer under "The Day of Dignity" årsmarkeringen for de overlevende og de som mistet livet under Guatemalas borgerkrig (1960-1996).
+                Festivales Solidarios beskriver seg selv som et dekolonisert medie-kollektiv bestående kunstnere og journalister som skal tale for folket i Guatemala.
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={ylva5}></img>
+            <div>
+                Ylva Greni <br/>
+                Det glatte lag, 2021 <br/>
+                70 x 100 cm, Opplag 40<br/>
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={august2}></img>
+            <div>
+                August Sandberg <br/>
+                Swedish farm, 2021 <br/>
+                40x30 akryl på lerret <br/>
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={hermann2}></img>
+            <img  className={"auksjon_bilde"} src={hermann}></img>
+            <div>
+                Herman <br/>
+                1: Uten tittel, 2022 <br/>
+                2: No more ambitions, 2022 <br/>
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={charlotte}></img>
+            <div>
+                Speedbird origin, 2023 <br/>
+                Håndkolorert silketrykk<br/>
+                Opplag 1/1<br/>
+                Format: 38* 57<br/>
+                2900 kr<br/>
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={eline}></img>
+            <div>
+                Embobut forest i Kenya, 2021 <br/>
+                Foto printet på aluminiumsplate
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={kamil}></img>
+            <div>
+                Kamil Kakk <br/><br/>
+                Uten tittel, 2019 <br/>
+                50 x 70 cm <br/>
+                Edition of 6
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={julia45}></img>
+            <div>
+                Julia Jayko Fossland <br/>
+                Berøringer 4, 2023 <br/>
+                Silketrykk, 2-lags, A3+, opplag: 6 <br/>
+                800 kr
+            </div>
+            <div className={"strek"}/>
+        </div>
+        <div className={"auksjon_bilde-container"} >
+            <img  className={"auksjon_bilde"} src={hamid44}></img>
+            <div>
+                Hamid Waheed <br/>
+                Uten tittel, 2022 <br/>
+                Risoprint, et print med gul/lilla pigment, et print med lilla pigment <br/>
+                Produsert som del av arbeidet solo-utstillinga "I Think We've Waited Long Enough", K4 Galleri, 02/2022 <br/>
+                Veil. pris: 500
+
+            </div>
+            <div className={"strek"}/>
+        </div>
+
+
+
+        <div className={"auksjon_bilde-container"} >
             <img  className={"auksjon_bilde"} src={eskil1}></img>
             <div>
                 01 - Eskil Halfdan von Hanno Bast <br/>
@@ -108,15 +328,7 @@ function App() {
             </div>
             <div className={"strek"}/>
         </div>
-        <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={august2}></img>
-            <div>
-                02 - August Sandberg <br/>
-                Swedish farm, 2021 <br/>
-                40x30 akryl på lerret <br/>
-            </div>
-            <div className={"strek"}/>
-        </div>
+
         <div className={"auksjon_bilde-container"} >
             <img  className={"auksjon_bilde"} src={karin3}></img>
             <div>
@@ -127,39 +339,10 @@ function App() {
             <div className={"strek"}/>
         </div>
         <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={thale4}></img>
-            <div>
-                04 - Thale Blix Fastvold & Tanja Thorjussen / LOCUS <br/>
-                “Kvinner - Elsa Laula Renberg”, 2019 <br/>
-                Risografi i opplag på 50 eks. A3 str<br/>
-            </div>
-            <div className={"strek"}/>
-        </div>
-        <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={ylva5}></img>
-            <div>
-                05 - Ylva Greni <br/>
-                Det glatte lag, 2021 <br/>
-                70 x 100 cm, Opplag 40<br/>
-            </div>
-            <div className={"strek"}/>
-        </div>
-        <div className={"auksjon_bilde-container"} >
             <img  className={"auksjon_bilde"} src={unnamed6}></img>
             <div>
                 06 - Kajsa Dahlberg, Miriam Döring, Annike Flo, Sive Hamilton Helle, Eli Maria Lundgaard, malatsion, Lexie Owen, Rebekka Sæter och Ylva Westerlund <br/>
                 Publikationen: Nature Scribbles and Flesh Reads <br/>
-            </div>
-            <div className={"strek"}/>
-        </div>
-        <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={adrian8}></img>
-            <div>
-                08 - Adrian Bugge <br/>
-                Inngrep / Interventions, 2023 <br/>
-                Kerber Verlag og Uten Tittel 2023 <br/>
-                Design: Aslak Gurholt (Yokoland). Tekster av: Adrian Bugge, Henrik H. Svensen, på norsk og oversatt til engelsk. <br/>
-                23 x 32 cm, 128 sider, Hardcover <br/>
             </div>
             <div className={"strek"}/>
         </div>
@@ -178,17 +361,6 @@ function App() {
                 10 - Marianne Gihle <br/>
                 «Jazzmesse i Nidarosdomen» tresnitt (2013), opplagsnummer 3/16.<br/>
                 oljemaleri, 25x44 cm <br/>
-            </div>
-            <div className={"strek"}/>
-        </div>
-        <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={yngvar11}></img>
-            <div>
-                11 - Yngvar Larsen <br/>
-                OMEN NEMO, 2022<br/>
-                39x53cm<br/>
-                Papir: Hahnemühle 150 gram
-                Unikt trykk (Monotypi, dyptrykk, tapetrykk)
             </div>
             <div className={"strek"}/>
         </div>
@@ -234,13 +406,6 @@ function App() {
             <div>
                 18 - Wenche Sandra M Disington<br/>
                 Portrait of my Ancestors, 2022<br/>
-            </div>
-            <div className={"strek"}/>
-        </div>
-        <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={io19}></img>
-            <div>
-                19 - Io Sivertsen
             </div>
             <div className={"strek"}/>
         </div>
@@ -362,55 +527,11 @@ function App() {
             <div className={"strek"}/>
         </div>
         <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={marthe40}></img>
-            <div>
-                40 - Marthe Ramm Fortun <br/>
-                Når du kommer, brister hotellets kropp og alle rommenes dører åpner seg, 2017.
-            </div>
-            <div className={"strek"}/>
-        </div>
-        <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={hamid44}></img>
-            <div>
-                44 - Hamid Waheed <br/>
-                Uten tittel, 2022 <br/>
-                Risoprint, et print med gul/lilla pigment, et print med lilla pigment <br/>
-            </div>
-            <div className={"strek"}/>
-        </div>
-        <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={julia45}></img>
-            <div>
-                45 - Julia Jayko Fossland <br/>
-                Berøringer 4, 2023 <br/>
-                Silketrykk, 2-lags, A3+, opplag: 6 <br/>
-            </div>
-            <div className={"strek"}/>
-        </div>
-        <div className={"auksjon_bilde-container"} >
             <img  className={"auksjon_bilde"} src={elisa46}></img>
             <div>
                 46 - Elisa Halvorsen Castillo <br/>
                 Cry yourself to ash, 2020 <br/>
                 Silketrykk, 46cm x 64cm <br/>
-            </div>
-            <div className={"strek"}/>
-        </div>
-        <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={maya47}></img>
-            <div>
-                47 - Maya Økland <br/>
-                Eidfjord II (Sinnets irrganger), 2020. <br/>
-                Analog c-print 30 x 40 cm med eikeramme og UV-glass <br/>
-            </div>
-            <div className={"strek"}/>
-        </div>
-        <div className={"auksjon_bilde-container"} >
-            <img  className={"auksjon_bilde"} src={lars48}></img>
-            <div>
-                48 - Lars Gangdal og Petter Wang <br/>
-                Werner Jensen, 2023 <br/>
-                Størrelse: 50x60cm /inkl sveveramme i eik.<br/>
             </div>
             <div className={"strek"}/>
         </div>
